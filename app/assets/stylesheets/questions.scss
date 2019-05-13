@@ -1,0 +1,49 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: "Helvetica";
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.header{
+  padding-top: 50px;
+}
+
+#input {
+  padding: 15px;
+  width: 300px;
+}
+
+#button {
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+.answer {
+  padding: 15px;
+  border: 1px solid lightgray;
+  margin-bottom: 5px;
+}
+
+#new-q {
+  margin-top: 30px;
+}
+
+#new-q a {
+  padding: 15px;
+  width: 100px;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+// #new-q > a:active {
+//   text-decoration: none;
+//   color: black;
+// }

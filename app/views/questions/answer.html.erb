@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div class="header">
+    <h1>Here are your stupid answers, enjoy!</h1>
+  </div>
+
+  <div class="answer">
+    <p>Question: <%= params[:question] %></p>
+  </div>
+
+  <div class="answer">
+     <p>Answer: <%= @answer %> </p>
+  </div>
+
+  <p id="new-q">
+    <%= link_to 'New question', ask_path %>
+  </p>
+</div>
